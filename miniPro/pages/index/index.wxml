@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<button open-type="getPhoneNumber" bindgetphonenumber="gpn">login</button>
+<button bindtap="refreshwechatToken">refresh accessToken</button>
+<button bindtap="normalRequest">normalRequest</button>
+<!-- <button bindtap="animateShow">clickMe</button>
+<view class="modal {{modalState?'show':''}}" bindtap="animateHide"></view> -->
